@@ -14,12 +14,13 @@
 
 ## Process
 1. Segment the plate from the background. Use _GrabCut_ algorithm. Since it is an interactive algorithm requiring user's continuous input, we use manual center-crop and circular mask augmentation for automatic process. The result is shown below:<br/>
-
+![Process1 example](./Image/example1.jpg)
   
 2. Detect and count beans in the plate. We use thresholds of Hue/ValueChroma to detect beans from the plate and other beans. Threhsolds are found by manual tuning. We upload the file _find_upper_lower.py_ which helps find the best threshold. Though the aformentioned process can find the boundary of each bean with comparable performance, it might struggle in the case with many beans. So we make a decision whether the input image contains many beans or not before counting. In the former case, we use regression based on the area of detected beans, fitted with the training set. In the latter case, we mask the plate to get beans and count with some post-processings. The result is shown below:<br/>
+![Process2 example](./Image/example2.jpg)
   
 ## References
-Rother et al. _"GrabCut": interactive foreground extraction using iterated graph cuts_. ToG. 2004.
+Rother et al. _"GrabCut": interactive foreground extraction using iterated graph cuts_. ToG. 2004. ([link](https://github.com/Pengeace/RPITER))
   
   
  
