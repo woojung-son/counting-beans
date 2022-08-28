@@ -20,7 +20,7 @@
 <img src="./Image/example2.png" width="200" height="200" />
   
 ## References
-Rother et al. _"GrabCut": interactive foreground extraction using iterated graph cuts_. ToG. 2004. ([link]([https://github.com/Pengeace/RPITER](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)))
+Rother et al. _"GrabCut": interactive foreground extraction using iterated graph cuts_. ToG. 2004. ([link](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf))
   
   
  
