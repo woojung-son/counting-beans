@@ -1,4 +1,4 @@
-## 2021 Kaggle Competition by PNU <br/>(prize-winning project, 2th place)
+## 2021 Kaggle Competition <br/>(prize-winning project, 2th place)
 - Subject: Counting the number of beans in the plate as accurate as possible given images.
 
 ## counting-beans
